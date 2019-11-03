@@ -58,6 +58,8 @@
 
 ### 17. `npm i -D @babel/preset-react`
 
+### 18. `npm i -D @babel/preset-typescript`
+
 
 ## Полезные ссылки
 
