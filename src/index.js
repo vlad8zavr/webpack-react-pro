@@ -1,0 +1,1 @@
+console.log('Kanye West and his friends');
