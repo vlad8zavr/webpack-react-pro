@@ -15,3 +15,7 @@
 ### 3. webpack.config.js
 
 ### 4. `npm i -g webpack webpack-cli`
+
+### 5. `npm i -D html-webpack-plugin`
+
+(создает в папке `build` html файл по образцу html файла из папки `src`)
