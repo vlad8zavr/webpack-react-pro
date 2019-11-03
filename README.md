@@ -54,6 +54,10 @@
 
 ### 15. `npm i -D sass-loader node-sass`
 
+### 16. `npm i -S react react-dom`
+
+### 17. `npm i -D @babel/preset-react`
+
 
 ## Полезные ссылки
 
@@ -64,3 +68,5 @@
 ### https://webpack.js.org/loaders/
 
 ### https://babeljs.io/docs/en/usage
+
+### https://babeljs.io/docs/en/babel-preset-react#docsNav
