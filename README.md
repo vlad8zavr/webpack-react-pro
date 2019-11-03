@@ -29,3 +29,5 @@
 ### 8. `npm i -D mini-css-extract-plugin`
 
 (стили в отдельном файле)
+
+### 9. `npm i -D optimize-css-assets-webpack-plugin`
