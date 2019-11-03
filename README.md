@@ -19,3 +19,13 @@
 ### 5. `npm i -D html-webpack-plugin`
 
 (создает в папке `build` html файл по образцу html файла из папки `src`)
+
+### 6. `npm i -D css-loader`
+
+### 7. `npm i -D style-loader`
+
+(стили в теге `head`)
+
+### 8. `npm i -D mini-css-extract-plugin`
+
+(стили в отдельном файле)
