@@ -6,6 +6,14 @@
 
 ### 1. `npm i`
 
+## Запуск
+
+### Сервер - `npm run start`
+
+### Разработка - `npm run dev`
+
+### Продакшн - `npm run build`
+
 ## Последовательность настройки
 
 ### 1. `npm init -y`
@@ -34,6 +42,21 @@
 
 ### 10. `npm i -D uglifyjs-webpack-plugin`
 
-(потому что в 9 пункте в файл `webpack.config.js` ввели объект optimization и сборка в продакшене теперь не минифицирует js)
+(потому что в 9 пункте в файл `webpack.config.js` ввели объект optimization, и сборка в продакшене теперь не минифицирует js)
 
 ### 11. `npm i -D webpack-dev-server`
+
+### 12. `npm i -D @babel/core @babel/cli @babel/preset-env`
+
+### 13. `npm i --save @babel/polyfill`
+
+### 14. `npm i -D babel-loader`
+
+
+## Полезные ссылки
+
+### https://webpack.js.org/guides/installation/
+
+### https://webpack.js.org/plugins/
+
+### https://babeljs.io/docs/en/usage
