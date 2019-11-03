@@ -31,3 +31,9 @@
 (стили в отдельном файле)
 
 ### 9. `npm i -D optimize-css-assets-webpack-plugin`
+
+### 10. `npm i -D uglifyjs-webpack-plugin`
+
+(потому что в 9 пункте в файл `webpack.config.js` ввели объект optimization и сборка в продакшене теперь не минифицирует js)
+
+### 11. `npm i -D webpack-dev-server`
