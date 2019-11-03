@@ -17,6 +17,10 @@ module.exports = {
                 use: [MiniCssExtractPlugin.loader, 'css-loader'],
             },
             {
+                test: /\.scss$/,
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+            },
+            {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: "babel-loader",

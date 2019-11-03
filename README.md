@@ -52,11 +52,15 @@
 
 ### 14. `npm i -D babel-loader`
 
+### 15. `npm i -D sass-loader node-sass`
+
 
 ## Полезные ссылки
 
 ### https://webpack.js.org/guides/installation/
 
 ### https://webpack.js.org/plugins/
+
+### https://webpack.js.org/loaders/
 
 ### https://babeljs.io/docs/en/usage
