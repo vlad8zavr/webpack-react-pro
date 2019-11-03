@@ -21,7 +21,7 @@ module.exports = {
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
             },
             {
-                test: /\.js$/,
+                test: /\.(js|ts)$/,
                 exclude: /node_modules/,
                 loader: "babel-loader",
             }
@@ -32,6 +32,9 @@ module.exports = {
             new OptimizeCssAssetsPlugin({}),
             new UglifyJsPlugin({})
         ]
+    },
+    resolve: {
+        extensions: ['.js', '.ts']
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'build'),
