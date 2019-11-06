@@ -27,6 +27,9 @@ module.exports = {
             }
         ]
     },
+    resolve: {
+        extensions: ['*', '.js', '.jsx'],
+    },
     optimization: {
         minimizer: [
             new OptimizeCssAssetsPlugin({}),
