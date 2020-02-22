@@ -70,3 +70,5 @@
 ### https://babeljs.io/docs/en/usage
 
 ### https://babeljs.io/docs/en/babel-preset-react#docsNav
+
+### https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
